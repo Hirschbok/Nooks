@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "nooks:netherite_powder",
+      "count": 3
+    },
+    {
+      "item": "minecraft:beetroot",
+      "count": 1
+    }
+  ],
+  "result":
+  {
+    "item": "nooks:powdered_beetroot",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "minecraft:cooked_chicken"},
+    {"item":  "minecraft:bowl"},
+    {"item": "minecraft:wheat"},
+    {"item": "minecraft:potato"},
+    {"item": "minecraft:carrot"},
+    {"item": "minecraft:sweet_berries"},
+    {"item": "minecraft:bread"}
+  ],
+  "result":
+  {
+    "item": "nooks:thanksgiving_meal",
+    "count": 1
+  }
+}

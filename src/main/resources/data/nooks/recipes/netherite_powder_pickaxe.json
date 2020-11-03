@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+          [
+            "xxx",
+            " d ",
+            " d "
+          ],
+  "key":
+  {
+    "x": {"item": "nooks:netherite_powder"},
+    "d": {"item": "minecraft:stick"}
+  },
+  "result":
+  {
+    "item": "nooks:netherite_powder_pickaxe",
+    "count": 1
+  }
+}

@@ -16,7 +16,7 @@ displayName="Nooks" #mandatory
 
 updateJSONURL="http://myurl.me/" #optional
 
-displayURL="https://www.curseforge.com/minecraft/mc-mods/nooks" #optional
+displayURL="https://github.com/Hirschbok/Nooks" #optional
 
 logoFile="metal_detector.png" #optional
 

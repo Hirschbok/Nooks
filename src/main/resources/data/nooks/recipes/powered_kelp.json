@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "minecraft:redstone", "count": 2},
+    {"item": "minecraft:kelp"}
+  ],
+  "result":
+  {
+    "item": "nooks:powered_kelp",
+    "count": 1
+  }
+}

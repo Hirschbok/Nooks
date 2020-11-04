@@ -5,6 +5,7 @@ import com.hirschbok.nooks.blocks.BlockItemBase;
 import com.hirschbok.nooks.blocks.NetheritePowderBlock;
 import com.hirschbok.nooks.items.ItemBase;
 import com.hirschbok.nooks.items.PowderedBeetroot;
+import com.hirschbok.nooks.items.PoweredKelp;
 import com.hirschbok.nooks.items.ThanksgivingMeal;
 import com.hirschbok.nooks.tools.ModItemTier;
 import net.minecraft.block.Block;
@@ -30,6 +31,8 @@ public class RegistryHandler {
     public static final RegistryObject<Item> NETHERITE_POWDER = ITEMS.register("netherite_powder", ItemBase::new);
     public static final RegistryObject<PowderedBeetroot> POWDERED_BEETROOT = ITEMS.register("powdered_beetroot", PowderedBeetroot::new);
     public static final RegistryObject<ThanksgivingMeal> THANKSGIVING_MEAL = ITEMS.register("thanksgiving_meal", ThanksgivingMeal::new);
+    public static final RegistryObject<PoweredKelp> POWERED_KELP = ITEMS.register("powered_kelp", PoweredKelp::new);
+
 
     // Tools
     public static final RegistryObject<PickaxeItem> NETHERITE_POWDER_PICKAXE = ITEMS.register("netherite_powder_pickaxe", () ->

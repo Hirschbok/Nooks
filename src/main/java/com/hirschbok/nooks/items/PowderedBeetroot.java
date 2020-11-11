@@ -12,7 +12,7 @@ public class PowderedBeetroot extends Item {
             .group(Nooks.TAB)
             .food(new Food.Builder()
                     .hunger(4)
-                    .saturation(14.4f)
+                    .saturation(3)
                     .effect(new EffectInstance(Effects.HASTE, 300, 1), 1)
                     .effect(new EffectInstance(Effects.BLINDNESS, 5*20, 1), .20f)
                     .setAlwaysEdible()

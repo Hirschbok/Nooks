@@ -15,7 +15,7 @@ public class ThanksgivingMeal extends Item {
                 .saturation(20.0f)
                 .effect(new EffectInstance(Effects.SLOWNESS, 30*20, 0), 1)
                 .effect(new EffectInstance(Effects.ABSORPTION, 30*20, 0), 1)
-                .effect(new EffectInstance(Effects.NAUSEA, 5*20, 0), 0.1f)
+                .effect(new EffectInstance(Effects.NAUSEA, 8*20, 0), 0.1f)
                 .build()
         )
 

@@ -4,23 +4,23 @@ loaderVersion="[34,)" #mandatory This is typically bumped every Minecraft versio
 
 license="All rights reserved"
 
-issueTrackerURL="http://my.issue.tracker/" #optional
+issueTrackerURL="" #optional
 
 [[mods]] #mandatory
 
 modId="nooks" #mandatory
 
-version="1.16.3-1.1.0" #mandatory
+version="1.16.3-1.1.1" #mandatory
 
 displayName="Nooks" #mandatory
 
-updateJSONURL="http://myurl.me/" #optional
+updateJSONURL="" #optional
 
 displayURL="https://github.com/Hirschbok/Nooks" #optional
 
 logoFile="metal_detector.png" #optional
 
-credits="Thanks to my global learning class lol" #optional
+credits="Thanks to my independent study class lol" #optional
 
 authors="Hirschbok" #optional
 

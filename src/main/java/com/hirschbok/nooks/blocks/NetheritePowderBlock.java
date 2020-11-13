@@ -13,6 +13,6 @@ public class NetheritePowderBlock extends Block {
             .sound(SoundType.SAND)
             .harvestLevel(1)
             .harvestTool(ToolType.SHOVEL)
-            .func_235861_h_());
+            );
     }
 }

@@ -3,10 +3,7 @@ package com.hirschbok.nooks.util;
 import com.hirschbok.nooks.Nooks;
 import com.hirschbok.nooks.blocks.BlockItemBase;
 import com.hirschbok.nooks.blocks.NetheritePowderBlock;
-import com.hirschbok.nooks.items.ItemBase;
-import com.hirschbok.nooks.items.PowderedBeetroot;
-import com.hirschbok.nooks.items.PoweredKelp;
-import com.hirschbok.nooks.items.ThanksgivingMeal;
+import com.hirschbok.nooks.items.*;
 import com.hirschbok.nooks.tools.ModItemTier;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
@@ -32,7 +29,7 @@ public class RegistryHandler {
     public static final RegistryObject<PowderedBeetroot> POWDERED_BEETROOT = ITEMS.register("powdered_beetroot", PowderedBeetroot::new);
     public static final RegistryObject<ThanksgivingMeal> THANKSGIVING_MEAL = ITEMS.register("thanksgiving_meal", ThanksgivingMeal::new);
     public static final RegistryObject<PoweredKelp> POWERED_KELP = ITEMS.register("powered_kelp", PoweredKelp::new);
-
+    public static final RegistryObject<RichBoneMeal> RICH_BONE_MEAL = ITEMS.register("rich_bone_meal", RichBoneMeal::new);
 
     // Tools
     public static final RegistryObject<PickaxeItem> NETHERITE_POWDER_PICKAXE = ITEMS.register("netherite_powder_pickaxe", () ->

@@ -101,6 +101,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/white_dye": {
+    "criteria": {
+      "has_bone_meal": "2020-11-16 09:59:53 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/spruce_boat": {
     "criteria": {
       "in_water": "2020-11-04 12:34:55 -0500"
@@ -599,5 +605,11 @@
     },
     "done": true
   },
-  "DataVersion": 2580
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_bonemeal": "2020-11-16 09:59:53 -0500"
+    },
+    "done": true
+  },
+  "DataVersion": 2584
 }

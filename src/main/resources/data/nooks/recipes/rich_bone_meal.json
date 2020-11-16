@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "nooks:netherite_powder", "count": 2},
+    {"item": "minecraft:bone_meal"}
+  ],
+  "result":
+  {
+    "item": "nooks:rich_bone_meal",
+    "count": 2
+  }
+}

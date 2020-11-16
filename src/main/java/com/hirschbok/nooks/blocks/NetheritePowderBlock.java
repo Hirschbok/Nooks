@@ -13,6 +13,8 @@ public class NetheritePowderBlock extends Block {
             .sound(SoundType.SAND)
             .harvestLevel(1)
             .harvestTool(ToolType.SHOVEL)
+            .setRequiresTool()
+            .setLightLevel(Level -> 9)
             );
     }
 }

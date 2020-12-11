@@ -30,6 +30,7 @@ public class RegistryHandler {
     public static final RegistryObject<ThanksgivingMeal> THANKSGIVING_MEAL = ITEMS.register("thanksgiving_meal", ThanksgivingMeal::new);
     public static final RegistryObject<PoweredKelp> POWERED_KELP = ITEMS.register("powered_kelp", PoweredKelp::new);
     public static final RegistryObject<RichBoneMeal> RICH_BONE_MEAL = ITEMS.register("rich_bone_meal", RichBoneMeal::new);
+    public static final RegistryObject<HolidayHam> HOLIDAY_HAM = ITEMS.register("holiday_ham", HolidayHam::new);
 
     // Tools
     public static final RegistryObject<PickaxeItem> NETHERITE_POWDER_PICKAXE = ITEMS.register("netherite_powder_pickaxe", () ->

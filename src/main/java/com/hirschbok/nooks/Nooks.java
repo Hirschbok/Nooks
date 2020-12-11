@@ -1,9 +1,13 @@
 package com.hirschbok.nooks;
 
+import com.hirschbok.nooks.entities.QuartzmiteEntity;
+import com.hirschbok.nooks.init.ModEntityTypes;
 import com.hirschbok.nooks.util.RegistryHandler;
+import net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.fml.DeferredWorkQueue;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
@@ -27,7 +31,11 @@ public class Nooks
         MinecraftForge.EVENT_BUS.register(this);
     }
 
-    private void setup(final FMLCommonSetupEvent event) { }
+    private void setup(final FMLCommonSetupEvent event) {
+        DeferredWorkQueue.runLater(() -> {
+            GlobalEntityTypeAttributes.put(ModEntityTypes.QUARTZMITE.get(), QuartzmiteEntity.setCustomAttributes().create());
+        });
+    }
 
     private void doClientStuff(final FMLClientSetupEvent event) { }
 

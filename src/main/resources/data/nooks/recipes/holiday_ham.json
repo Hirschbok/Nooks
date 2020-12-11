@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "minecraft:cooked_porkchop", "count": 2},
+    {"item": "minecraft:sweet_berries"}
+  ],
+  "result":
+  {
+    "item": "nooks:holiday_ham",
+    "count": 1
+  }
+}

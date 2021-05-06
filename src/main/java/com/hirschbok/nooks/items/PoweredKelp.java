@@ -1,15 +1,15 @@
 package com.hirschbok.nooks.items;
 
-import com.hirschbok.nooks.Nooks;
 import net.minecraft.item.Food;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemGroup;
 import net.minecraft.potion.EffectInstance;
 import net.minecraft.potion.Effects;
 
 public class PoweredKelp extends Item {
     public PoweredKelp() {
         super(new Properties()
-        .group(Nooks.TAB)
+        .group(ItemGroup.FOOD)
         .food(new Food.Builder()
                 .hunger(2)
                 .saturation(0)

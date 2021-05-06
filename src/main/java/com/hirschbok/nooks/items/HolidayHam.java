@@ -1,17 +1,15 @@
 package com.hirschbok.nooks.items;
 
-import com.hirschbok.nooks.Nooks;
 import net.minecraft.item.Food;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
-import net.minecraft.item.SwordItem;
 import net.minecraft.potion.EffectInstance;
 import net.minecraft.potion.Effects;
 
 public class HolidayHam extends Item {
     public HolidayHam() {
         super(new Properties()
-        .group(Nooks.TAB)
+        .group(ItemGroup.FOOD)
         .food(new Food.Builder()
         .meat()
         .hunger(10)
